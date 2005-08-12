@@ -8,6 +8,8 @@ License:	GPL
 Source0:	http://www.lilotux.net/%7emikael/mcabber/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	041f50bc3d8843e761ce8de78d0d32a3
 URL:		http://www.lilotux.net/~mikael/mcabber/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	glib2-devel
 # this one for autocrap only:
 BuildRequires:	gnutls-devel
