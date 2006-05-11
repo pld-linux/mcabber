@@ -8,11 +8,9 @@ License:	GPL
 Source0:	http://www.lilotux.net/%7emikael/mcabber/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	0456968da2a50eb127fce2a1ee5d5902
 URL:		http://www.lilotux.net/~mikael/mcabber/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
-BuildRequires:	glib2-devel
-# this one for autocrap only:
-BuildRequires:	gnutls-devel
+BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	ncurses-ext-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
@@ -34,11 +32,10 @@ przy zdarzeniach.
 
 %build
 CPPFLAGS="-I/usr/include/ncurses"; export CPPFLAGS
-#%{__aclocal}
+%{__aclocal} -I macros
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-cp -f /usr/share/automake/config.sub .
 %configure \
 	--with-openssl
 
