@@ -55,3 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README TODO mcabberrc.example
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
+%{_datadir}/%{name}
