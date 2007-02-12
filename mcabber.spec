@@ -1,5 +1,5 @@
 Summary:	mcabber - small console Jabber client
-Summary(pl):	mcabber - ma≥y konsolowy klient protoko≥u Jabber
+Summary(pl.UTF-8):   mcabber - ma≈Çy konsolowy klient protoko≈Çu Jabber
 Name:		mcabber
 Version:	0.9.0
 Release:	1
@@ -21,10 +21,10 @@ mcabber is a small Jabber console client for Linux. mcabber includes
 features such as SSL support, history logging, commands completion,
 and external actions triggers.
 
-%description -l pl
-mcabber jest ma≥ym klientem protoko≥u Jabber dla Linuksa.
-Do moøliwo∂ci mcabbera naleø±: wsparcie dla SSL, logowanie
-historii, dope≥nianie poleceÒ i wywo≥ywanie zewnÍtrznych pleceÒ
+%description -l pl.UTF-8
+mcabber jest ma≈Çym klientem protoko≈Çu Jabber dla Linuksa.
+Do mo≈ºliwo≈õci mcabbera nale≈ºƒÖ: wsparcie dla SSL, logowanie
+historii, dope≈Çnianie polece≈Ñ i wywo≈Çywanie zewnƒôtrznych plece≈Ñ
 przy zdarzeniach.
 
 %prep
