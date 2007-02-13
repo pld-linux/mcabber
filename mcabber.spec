@@ -1,5 +1,5 @@
 Summary:	mcabber - small console Jabber client
-Summary(pl.UTF-8):   mcabber - mały konsolowy klient protokołu Jabber
+Summary(pl.UTF-8):	mcabber - mały konsolowy klient protokołu Jabber
 Name:		mcabber
 Version:	0.9.0
 Release:	1
