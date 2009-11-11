@@ -1,12 +1,12 @@
 Summary:	mcabber - small console Jabber client
 Summary(pl.UTF-8):	mcabber - mały konsolowy klient protokołu Jabber
 Name:		mcabber
-Version:	0.9.7
-Release:	2
+Version:	0.9.10
+Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://www.lilotux.net/%7emikael/mcabber/files/%{name}-%{version}.tar.bz2
-# Source0-md5:	a6f136aa0dabdd7ecfd3bfaded180406
+# Source0-md5:	887415d16c32af58eab2ec2d9bb17fa6
 URL:		http://www.lilotux.net/~mikael/mcabber/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
