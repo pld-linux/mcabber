@@ -12,6 +12,7 @@ BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake
 BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	gpgme-devel
+BuildRequires:	libotr-devel
 BuildRequires:	ncurses-ext-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
@@ -23,10 +24,10 @@ features such as SSL support, history logging, commands completion,
 and external actions triggers.
 
 %description -l pl.UTF-8
-mcabber jest małym klientem protokołu Jabber dla Linuksa.
-Do możliwości mcabbera należą: wsparcie dla SSL, logowanie
-historii, dopełnianie poleceń i wywoływanie zewnętrznych pleceń
-przy zdarzeniach.
+mcabber jest małym klientem protokołu Jabber dla Linuksa. Do
+możliwości mcabbera należą: wsparcie dla SSL, logowanie historii,
+dopełnianie poleceń i wywoływanie zewnętrznych pleceń przy
+zdarzeniach.
 
 %prep
 %setup -q
