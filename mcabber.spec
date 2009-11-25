@@ -13,6 +13,7 @@ BuildRequires:	automake
 BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	gpgme-devel
 BuildRequires:	libotr-devel
+BuildRequires:	libtool
 BuildRequires:	ncurses-ext-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
