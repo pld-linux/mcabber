@@ -14,6 +14,7 @@ BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	gpgme-devel
 BuildRequires:	libotr-devel
 BuildRequires:	libtool
+BuildRequires:	loudmouth-devel >= 1.4.2
 BuildRequires:	ncurses-ext-devel
 BuildRequires:	openssl-devel
 BuildRequires:	pkgconfig
