@@ -1,0 +1,11 @@
+--- mcabber-1.1.2/mcabber/screen.c.orig	2020-09-19 16:21:13.000000000 +0200
++++ mcabber-1.1.2/mcabber/screen.c	2025-07-02 20:02:34.644170790 +0200
+@@ -4462,7 +4462,7 @@ static void bindcommand(keycode_t kcode)
+ static void scr_process_vi_arrow_key(int key)
+ {
+   const char *l;
+-  char mask[INPUTLINE_LENGTH+1];
++  char mask[INPUTLINE_LENGTH+1] = { 0 };
+   size_t cmd_len = strlen(mask);
+   size_t str_len = strlen(inputLine) - 1;
+ 
